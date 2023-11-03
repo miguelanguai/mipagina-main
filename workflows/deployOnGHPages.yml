@@ -1,4 +1,4 @@
-name: Exectue pages-build-deployment on every push to main
+name: Execute pages-build-deployment on every push to main
 
 on:
   push:
