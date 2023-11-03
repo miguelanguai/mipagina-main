@@ -1,0 +1,20 @@
+name: Exectue pages-build-deployment on every push to main
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  execute-my-action:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Verify and clone repo
+      uses: actions/checkout@v2
+
+    - name: Execute Github Action pages-build-deployment
+      run: 
+        
+
+      
