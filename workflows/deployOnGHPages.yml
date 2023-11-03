@@ -1,0 +1,19 @@
+name: Ejemplo de GitHub Action
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  platano:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Verifica y clona el repositorio
+      uses: actions/checkout@v2
+
+    - name: Ejecuta la acción "platano"
+      run: echo "Ejecutando la acción platano"
+
+      # Puedes agregar más pasos aquí según tus necesidades
